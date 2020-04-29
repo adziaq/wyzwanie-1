@@ -93,8 +93,8 @@
 .main-banner__button {
     width: 166px;
     height: 46px;
-    background-color: #fb414e;
-    border: 2px solid #fb414e;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
