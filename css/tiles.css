@@ -1,0 +1,84 @@
+.tiles {
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+@media(max-width: 768px) {
+    .tiles {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+.tiles__tile {
+    max-height: 500px;
+    min-height: 300px;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 50px;
+    margin: 10px;
+    z-index: 0;
+    position: relative;
+}
+
+@media(max-width: 768px) {
+    .tiles__tile {
+        max-width: 100%;
+    }
+}
+
+.tiles__tile::before {
+    content: "";
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    background-size: cover;
+}
+
+.tiles__tile--content::before {
+    background-image: url(/images/tiles/content-concept-strategy.svg);
+}
+
+.tiles__tile--design::before {
+    background-image: url(/images/tiles/design-conscepts.svg);
+}
+
+.tiles__tile--seo::before {
+    background-image: url(/images/tiles/seo-marketing.svg);
+}
+
+.tiles__tile--color-primary {
+    background-color: var(--color-primary)
+}
+
+.tiles__tile--color-secondary {
+    background-color: var(--color-secondary)
+}
+
+.tiles__tile-header {
+    color: white;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.tiles__tile-paragraph {
+    color: white;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.tiles__tile-paragraph::before {
+    content: "";
+    width: 15%;
+    border-top: 2px solid white;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
