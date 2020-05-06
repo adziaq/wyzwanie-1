@@ -1,9 +1,10 @@
 .gallery {
     width: 1800px;
     margin: 20px auto;
+    max-width: calc(100% - 20px);
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
     .gallery {
         width: calc(100% - 20px);
     }
