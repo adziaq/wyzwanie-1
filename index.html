@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
 
 <head>
     <title>Kallyas.</title>
@@ -25,7 +25,7 @@
         <div class="main-navigation__inner">
             <div class="main-navigation__logo">
                 <a href="#" class="main-navigation__logo-link">
-                    <img src="/images/logo.png" alt="Logo" class="main-navigation__logo-image">
+                    <img src="images/logo.png" alt="Logo" class="main-navigation__logo-image">
                 </a>
             </div>
             <ul class="main-navigation__menu js-main-navigation__menu">
@@ -149,44 +149,45 @@
         <ul class="gallery__works">
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/1.jpg" alt="Work1">
+                    <img class="gallery__work-image" src="images/gallery/1.jpg" alt="Work1">
                 </div>
             </li>
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/2.jpg" alt="Work2">
+                    <img class="gallery__work-image" src="images/gallery/2.jpg" alt="Work2">
                 </div>
             </li>
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/3.jpg" alt="Work3">
+                    <img class="gallery__work-image" src="images/gallery/3.jpg" alt="Work3">
                 </div>
             </li>
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/4.jpg" alt="Work4">
+                    <img class="gallery__work-image" src="images/gallery/4.jpg" alt="Work4">
                 </div>
             </li>
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/5.jpg" alt="Work5">
+                    <img class="gallery__work-image" src="images/gallery/5.jpg" alt="Work5">
                 </div>
             </li>
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/6.jpg" alt="Work6">
+                    <img class="gallery__work-image" src="images/gallery/6.jpg" alt="Work6">
                 </div>
             </li>
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/7.jpg" alt="Work7">
+                    <img class="gallery__work-image" src="images/gallery/7.jpg" alt="Work7">
                 </div>
             </li>
             <li class="gallery__list-item">
                 <div class="gallery__work">
-                    <img class="gallery__work-image" src="/images/gallery/8.jpg" alt="Work8">
+                    <img class="gallery__work-image" src="images/gallery/8.jpg" alt="Work8">
                 </div>
             </li>
+        </ul>
     </section>
 
     <section class="contact">
@@ -208,19 +209,19 @@
         <form class="contact__form">
             <div class="contact__form-field">
                 <label for="name">Your name*</label>
-                <input name="name" class="contact__form-input" required>
+                <input name="name" class="contact__form-input" id="name" required>
             </div>
             <div class="contact__form-field contact__form-field--half-row">
-                <label for="name">company name*</label>
-                <input name="company-name" class="contact__form-input" required>
+                <label for="company-name">company name*</label>
+                <input name="company-name" class="contact__form-input" id="company-name" required>
             </div>
             <div class="contact__form-field contact__form-field--half-row">
                 <label for="email">email address*</label>
-                <input name="email" class="contact__form-input" required>
+                <input name="email" class="contact__form-input" id="email" required>
             </div>
             <div class="contact__form-field">
-                <label for="email">select service*</label>
-                <select name="service" class="contact__form-input">
+                <label for="service">select service*</label>
+                <select name="service" class="contact__form-input" id="service">
                     <option value="web-design" selected>Web Design</option>
                     <option value="seo">SEO Identity</option>
                     <option value="marketing">Marketing</option>
@@ -231,7 +232,7 @@
             </div>
             <div class="contact__form-field">
                 <label for="text">describe your project*</label>
-                <textarea class="contact__form-input" name="content" required rows="8"></textarea>
+                <textarea class="contact__form-input" name="content" id="text" required rows="8"></textarea>
             </div>
             <button class="contact__form-button">Submit</button>
         </form>
