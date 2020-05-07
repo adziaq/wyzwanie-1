@@ -1,5 +1,5 @@
 .main-banner {
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     height: 830px;
     background-position: center center;
     background-size: cover;
@@ -13,7 +13,7 @@
 
 @media(max-width: 767px) {
     .main-banner {
-        background-image: url("/images/background_mobile.jpg");
+        background-image: url("../images/background_mobile.jpg");
     }
 }
 

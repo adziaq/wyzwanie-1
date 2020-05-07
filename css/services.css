@@ -105,27 +105,27 @@
 }
 
 .services__tiles-tile--strategy::before {
-    background-image: url(/images/icons/strategy.png);
+    background-image: url(../images/icons/strategy.png);
 }
 
 .services__tiles-tile--marketing::before {
-    background-image: url(/images/icons/marketing.png);
+    background-image: url(../images/icons/marketing.png);
 }
 
 .services__tiles-tile--technology::before {
-    background-image: url(/images/icons/technology.png);
+    background-image: url(../images/icons/technology.png);
 }
 
 .services__tiles-tile--ecommerce::before {
-    background-image: url(/images/icons/ecommerce.png);
+    background-image: url(../images/icons/ecommerce.png);
 }
 
 .services__tiles-tile--branding::before {
-    background-image: url(/images/icons/branding.png);
+    background-image: url(../images/icons/branding.png);
 }
 
 .services__tiles-tile--seo::before {
-    background-image: url(/images/icons/seo.png);
+    background-image: url(../images/icons/seo.png);
 }
 
 .services__tiles-tile-header {

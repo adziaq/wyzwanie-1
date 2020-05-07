@@ -42,15 +42,15 @@
 }
 
 .tiles__tile--content::before {
-    background-image: url(/images/tiles/content-concept-strategy.svg);
+    background-image: url(../images/tiles/content-concept-strategy.svg);
 }
 
 .tiles__tile--design::before {
-    background-image: url(/images/tiles/design-conscepts.svg);
+    background-image: url(../images/tiles/design-conscepts.svg);
 }
 
 .tiles__tile--seo::before {
-    background-image: url(/images/tiles/seo-marketing.svg);
+    background-image: url(../images/tiles/seo-marketing.svg);
 }
 
 .tiles__tile--color-primary {
