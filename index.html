@@ -17,6 +17,7 @@
     <link href="css/main-navigation.css" rel="stylesheet">
     <link href="css/services.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
 </head>
 
 <body>
@@ -186,6 +187,54 @@
                     <img class="gallery__work-image" src="/images/gallery/8.jpg" alt="Work8">
                 </div>
             </li>
+    </section>
+
+    <section class="contact">
+        <article class="contact__article">
+            <h3 class="contact__article-header">
+                Want to have a professional project? Let’s talk about it.
+            </h3>
+            <p class="contact__article-paragraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus magnam, maiores odio porro
+                corporis atque, ipsam quis quasi iste commodi consectetur impedit accusantium obcaecati totam molestiae
+                laudantium? Non, eligendi!
+            </p>
+            <p class="contact__article-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quas dolores autem nihil aliquid ipsam
+                quo, enim voluptas laborum, veritatis perferendis ut iusto maxime. Qui delectus est earum tenetur
+                obcaecati.
+            </p>
+        </article>
+        <form class="contact__form">
+            <div class="contact__form-field">
+                <label for="name">Your name*</label>
+                <input name="name" class="contact__form-input" required>
+            </div>
+            <div class="contact__form-field contact__form-field--half-row">
+                <label for="name">company name*</label>
+                <input name="company-name" class="contact__form-input" required>
+            </div>
+            <div class="contact__form-field contact__form-field--half-row">
+                <label for="email">email address*</label>
+                <input name="email" class="contact__form-input" required>
+            </div>
+            <div class="contact__form-field">
+                <label for="email">select service*</label>
+                <select name="service" class="contact__form-input">
+                    <option value="web-design" selected>Web Design</option>
+                    <option value="seo">SEO Identity</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="e-commerce">eCommerce</option>
+                    <option value="technology">Technology</option>
+                    <option value="branding">Branding</option>
+                </select>
+            </div>
+            <div class="contact__form-field">
+                <label for="text">describe your project*</label>
+                <textarea class="contact__form-input" name="content" required rows="8"></textarea>
+            </div>
+            <button class="contact__form-button">Submit</button>
+        </form>
     </section>
 </body>
 

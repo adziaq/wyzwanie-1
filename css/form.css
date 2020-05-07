@@ -1,0 +1,113 @@
+.contact {
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 50px auto;
+    color: var(--color-auxiliary);
+    --gap: 12px;
+}
+
+@media(max-width: 1199px) {
+    .contact {
+        width: calc(100% - var(--gap))
+    }
+}
+
+@media(max-width: 991px) {
+    .contact {
+        width: 100%;
+    }
+}
+
+.contact__article {
+    width: 50%;
+    padding: 0 80px 0 0;
+    text-align: right;
+}
+
+@media(max-width: 991px) {
+    .contact__article {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+.contact__article-header {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--color-secondary);
+    margin: 0 0 50px 0;
+    line-height: 1;
+}
+
+@media(max-width: 991px) {
+    .contact__article-header {
+        font-size: 40px;
+        line-height: 1.25;
+    }
+}
+
+.contact__article-paragraph {
+    line-height: 1.75;
+}
+
+.contact__form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 991px) {
+    .contact__form {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+.contact__form-field {
+    width: calc(100% - var(--gap));
+    margin: calc(var(--gap) / 2);
+    padding: 10px 10px var(--gap);
+    display: inline-block;
+    border: 1px solid var(--color-auxiliary);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.contact__form-field--half-row {
+    width: calc(50% - var(--gap));
+    margin: calc(var(--gap) / 2);
+}
+
+@media(max-width: 991px) {
+    .contact__form-field--half-row {
+        width: calc(100% - var(--gap));
+        margin: calc(var(--gap) / 2);
+    }
+}
+
+.contact__form-input {
+    border: none;
+    display: block;
+    outline: none;
+    line-height: 1;
+    font-size: 16px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.contact__form-button {
+    background: var(--color-primary);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    width: calc(100% - var(--gap));
+    margin: calc(var(--gap) / 2);
+    padding: 15px 10px;
+}
